@@ -1,0 +1,263 @@
+<html>
+<head><tittle>Deric wesonga website</title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+box-sizing:0;
+}
+#dero{
+width:100%;
+height:100vh;
+background:linear-gradient(rgba(253 234 214), rgba(255 245 234));
+}
+nav{
+justify-content:space-between;
+align-items:center;
+padding:4% 6%;
+display:flex;
+}
+.nav-links{
+flex:1;
+text-align:right;
+}
+.nav-links ul li{
+list-style:none;
+display:inline-block;
+padding:8px 12px;
+position:relative;
+}
+.nav-links ul li a{
+text-decoration:none;
+font-size:13px;
+}
+.nav-links ul li:after{
+content:'';
+width:0;
+height:2px;
+background:red;
+margin:auto;
+}
+.nav-links ul li:hoover:after{
+width:100%:
+transition:0.5s;
+}
+.text-box{
+width:90%;
+position:absolute;
+color:black;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+text-align:center;
+}
+.text-box h1{
+font-size:62px;
+text-shadow:3px 3px 3px black;
+}
+.text-box h1 span{
+color:rgba(123 255 12);
+}
+.text-box p{
+margin:10px 0px 40px;
+font-size:13px;
+letter-spacing:5px;
+}
+.dero-btn{
+display:inline-block;
+text-decoration:none;
+border:1px solid black;
+background:transparent;
+cursor:pointer;
+position:relative;
+padding:15px 15px 15px;
+border-radius:8px;
+}
+.dero-btn:hover{
+border:1px solid green;
+background:#f44336;
+transition:1s;
+color:black;
+text-decoration:none;
+}
+#log{
+width:100%;
+height:100vh;
+background:linear-gradient(#009986, rgba(255 231 137));
+}
+.log{
+justify-content:space-between;
+padding:100px 0px 20px;
+text-align:center;
+position:relative;
+}
+.log h1{
+color:black;
+font-size:40px;
+}
+.log p{
+color:black;
+font-size:25px;
+}
+.wrapper{
+width:420px;
+background:transparent;
+justify-content:space-between;
+text-align:center;
+margin:15px 95px 20px;
+align-items:center;
+box-shadow:0px 0px 10px rgba(0,0,0,0.7);
+}
+.wrapper h1{
+font-size:35px;
+color:white;
+}
+.wrapper .input-box{
+width:85%;
+padding-left:20px;
+height:50px;
+background:transparent;
+margin:30px 0px;
+border-radius:8px;
+border:none;
+}
+.input-box input{
+width:100%;
+height:100%;
+background:transparent;
+outline:none;
+border:2px solid rgba(255,255,255,0.2);
+font-size:15px;
+color:#fff;
+padding:20px 45px 20px 20px;
+}
+.input-box input:hover{
+background:black;
+color:white;
+border:1px solid #009986;
+transition:0.5s;
+}
+input-box input::placeholder{
+color:white;
+}
+.input-box i{
+position:absolute;
+right:20px;
+top:50%;
+transform:translateY(-50%);
+font-size:10px;
+}
+.wrapper .forget{
+display:flex;
+justify-content:space-between;
+font-size:14px;
+margin:15px 0 15px;
+}
+.forget label input{
+color:white;
+margin-right:3px;
+}
+.forget a{
+text-decoration:none;
+}
+.forget a:hover{
+text-decoration:underline;
+}
+.wrapper .btn{
+width:70%;
+height:45px;
+background:rgba(0 123 255);
+color:white;
+border:none;
+border-radius:40px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1)
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+}
+.wrapper .register-link{
+font-size:14.5px;
+text-align:center;
+margin-top:20px 0px 15px;
+}
+.register-link p a{
+text-decoration:none;
+font-weight:none;
+}
+.register-link p a:hover{
+text-decoration:underline;
+
+
+}
+</style>
+</head>
+<body>
+<section id="dero">
+<nav>
+<div class="nav-links">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Regestration</a></li>
+<li><a href="#">log in</a></li>
+<li><a href="#">Location</a></li>
+<li><a href="#">Our Blog</a></li>
+</ul>
+</div>
+</nav>
+<div class="text-box">
+<h1><span>Aji</span>ra Club 2024</h1>
+<p>Future Online Enterprenur Lives Here</p>
+<a href="dero.html" class="dero-btn">visit us to know more</a>
+</div>
+</section>
+<section id="log">
+<div class="log">
+<p>Alupe Ajira Club</p>
+<h1>Log In to our services</h1>
+</div>
+<div class=" wrapper">
+<form action="#">
+<h1>Log In</h1>
+<div class="input-box">
+<input type="text" placeholder="username" required>
+</div>
+<div class="input-box">
+<input type="password" placeholder="enter password" required>
+</div>
+<div class="input-box">
+<input type="email" placeholder="enter email" required>
+</div>
+<button type="submit" class="btn">Log In</button>
+<div class="forget">
+<a href="#">forgot password</a>
+<label><input type="checkbox"></label>
+</div>
+<div class="register-link">
+<p>Don't hane an account<a href="#">Register</a></p>
+</div>
+</form>
+</div>
+
+</section>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
